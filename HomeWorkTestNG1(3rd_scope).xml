@@ -1,0 +1,13 @@
+<suite name="Suite1+2" verbose="1">
+    <test name="XML_test">
+     <groups>
+        <run>
+            <include name="1st_scope" />
+            <include name="2nd_scope" />
+        </run>
+     </groups>
+        <classes>
+            <class name = "HomeWorkTestNG" />
+        </classes>
+    </test>
+</suite>
